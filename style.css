@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.header {
+    background-color: #FC8019; 
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+
+.header .Heading {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+
+.nav-items ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.heading-tag{
+    cursor: pointer;
+}
+.nav-items ul li {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.nav-items ul li:hover {
+    text-decoration: underline;
+}
+
+/* Style the container for the restaurant cards */
+.body{
+  margin: 16px;
+}
+.cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next row if needed */
+    /* justify-content: space-between; Space evenly between the cards */
+    margin: 16px;
+  }
+  
+  /* Style the restaurant card */
+  .card {
+    flex: 0 0 calc(33.33% - 16px); /* Set the width of each card with some spacing to fit three cards in one row */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-bottom: 16px; /* Add some vertical spacing between rows */
+    transition: transform 0.2s;
+    /* Increase the height of the card */
+    height: 300px; /* Adjust the height to your preference */
+    margin-right: 10px;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+  }
+  
+  /* Style the card content */
+  .card-content {
+    padding: 16px; /* Increase padding for more space */
+    text-align: left;
+    height: 100%; /* Ensure the content takes the full height of the card */
+  }
+  
+  /* Style the card image */
+  .card-image img {
+    width: 100%;
+    max-height: 150px; /* Limit the image height for a taller card */
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .card h2 {
+    font-size: 16px; /* Adjust the font size for a smaller card */
+    color: #333;
+  }
+  
+  .card h3 {
+    font-size: 12px; /* Adjust the font size for a smaller card */
+    color: #666;
+  }
+  
+  .card h4 {
+    font-size: 12px; /* Adjust the font size for a smaller card */
+    color: #FC8019;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
