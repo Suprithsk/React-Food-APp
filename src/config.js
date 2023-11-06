@@ -1,8 +1,5 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-
-
-const jsonData = [
+export const IMG_CARD_LINK=`https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/`;
+export const JSON_DATA=[
     {
         "info": {
             "id": "669",
@@ -1939,77 +1936,3 @@ const jsonData = [
         }
     }
 ]
-function Heading(props) {
-    return <h1 className="heading-tag">Food Villa</h1>;
-}
-const HeaderComponent = () => {
-    return (
-        <div className="header">
-            <Heading />
-            <div className="nav-items">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                    <li>Cart</li>
-                </ul>
-            </div>
-        </div>
-    );
-}
-function RestaurantCard({ cloudinaryImageId, name, cuisines, avgRating, areaName }) {
-    if(cuisines.length > 5) {
-        cuisines = cuisines.slice(0, 5);
-    }
-    return (
-        <div className="card">
-            <div className="card-content">
-                <div className="card-image">
-                    <img
-                        src={`https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/${cloudinaryImageId}`}
-                        alt=""
-                    />
-                </div>
-                <h2>{name}</h2>
-                <h3>{cuisines.join(', ')}</h3>
-                <h3>{areaName}</h3>
-                <h4>{avgRating} stars</h4>
-            </div>
-        </div>
-    )
-}
-function Body() {
-    return (
-        <div className="body">
-            <h1>Restaurants</h1>
-            <div className="cards-container">
-                {jsonData.map((restaurant) => {
-                    return (
-                        <RestaurantCard
-                            {...restaurant.info}
-                            key={restaurant.info.id}
-                        />
-                    );
-                })}
-            </div>
-        </div>
-    );
-}
-function Footer() {
-    return (
-        <div className="footer">
-            <p>Footer goes here</p>
-        </div>
-    );
-}
-function AppLayout() {
-    return (
-        <>
-            <HeaderComponent />
-            <Body />
-            <Footer />
-        </>
-    );
-}
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<AppLayout />);
