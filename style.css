@@ -1,106 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family:'proxima-nova', Arial, sans-serif;
 }
-
 
 .header {
-    background-color: #FC8019; 
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+  background-color: #fc8019;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
-
-
 
 .header .Heading {
-    font-size: 24px;
-    font-weight: bold;
-    
+  font-size: 24px;
+  font-weight: bold;
 }
-
 
 .nav-items ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-.heading-tag{
-    cursor: pointer;
+.heading-tag {
+  cursor: pointer;
 }
 .nav-items ul li {
-    display: inline-block;
-    margin-right: 20px;
-    cursor: pointer;
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
 }
 
 .nav-items ul li:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Style the container for the restaurant cards */
-.body{
+.body {
   margin: 16px;
 }
 .cards-container {
-    display: flex;
-    flex-wrap: wrap; /* Allow cards to wrap to the next row if needed */
-    /* justify-content: space-between; Space evenly between the cards */
-    margin: 16px;
-  }
-  
-  /* Style the restaurant card */
+  display: flex;
+  flex-wrap: wrap; /*Allow cards to wrap to the next row if needed */
+  margin: 16px;
+}
+
+/* Style the restaurant card */
+.card {
+  flex: 0 0 calc(33.33% - 16px); /* Set the width of each card with some spacing to fit three cards in one row */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 7px 7px 6px rgba(255, 159, 3, 0.1);
+  background-color: #fff;
+  margin-bottom: 16px; /* Add some vertical spacing between rows */
+  transition: transform 0.2s;
+  /* Increase the height of the card */
+  height: 300px; /* Adjust the height to your preference */
+  margin-right: 10px;
+  cursor: pointer;
+}
+@media (max-width: 700px) {
   .card {
-    flex: 0 0 calc(33.33% - 16px); /* Set the width of each card with some spacing to fit three cards in one row */
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    margin-bottom: 16px; /* Add some vertical spacing between rows */
-    transition: transform 0.2s;
-    /* Increase the height of the card */
-    height: 300px; /* Adjust the height to your preference */
-    margin-right: 10px;
+      flex: 0 0 calc(50% - 16px); /* Show two cards in one row */
+      margin-right: 10px; /* Remove right margin to prevent overflow */
+      height: 300px;
   }
-  
-  .card:hover {
-    transform: translateY(-4px);
-  }
-  
-  /* Style the card content */
-  .card-content {
-    padding: 16px; /* Increase padding for more space */
-    text-align: left;
-    height: 100%; /* Ensure the content takes the full height of the card */
-  }
-  
-  /* Style the card image */
-  .card-image img {
-    width: 100%;
-    max-height: 150px; /* Limit the image height for a taller card */
-    object-fit: cover;
-    border-radius: 8px;
-  }
-  
-  .card h2 {
-    font-size: 16px; /* Adjust the font size for a smaller card */
-    color: #333;
-  }
-  
-  .card h3 {
-    font-size: 12px; /* Adjust the font size for a smaller card */
-    color: #666;
-  }
-  
-  .card h4 {
-    font-size: 12px; /* Adjust the font size for a smaller card */
-    color: #FC8019;
-  }
+
+}
+
+/* Style the card content */
+.card-content {
+  padding: 16px; /* Increase padding for more space */
+  text-align: left;
+  height: 100%; /* Ensure the content takes the full height of the card */
+}
+
+/* Style the card image */
+.card-image img {
+  width: 100%;
+  max-height: 150px; /* Limit the image height for a taller card */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card h2 {
+  font-size: 16px; /* Adjust the font size for a smaller card */
+  color: #333;
+}
+
+.card h3 {
+  font-size: 12px; /* Adjust the font size for a smaller card */
+  color: #666;
+}
+
+.card h4 {
+  font-size: 12px; /* Adjust the font size for a smaller card */
+  color: #fc8019;
+}
 /* Style the search bar container */
 .search-bar {
   display: flex;
@@ -114,12 +113,11 @@ body {
   position: relative;
 }
 
-
 input[type="text"] {
   padding: 10px;
-  border: 1px solid #FF5722; 
+  border: 1px solid #ff5722;
   border-radius: 4px;
-  padding-right: 30px; 
+  padding-right: 30px;
   width: 100%; /* Make the input field take up all available space */
   font-size: 16px; /* Adjust the font size as needed */
 }
@@ -127,43 +125,217 @@ input[type="text"] {
 /* Style the clear button */
 .clear-button {
   position: absolute;
-  right: 0px; 
+  right: 0px;
   top: 50%;
   transform: translateY(-50%);
   background: none;
   border: none;
   cursor: pointer;
   font-size: 16px;
-  color: #FF5722; 
+  color: #ff5722;
 }
 
-
 button {
-  background-color: #FF5722; 
-  color: white; 
+  background-color: #ff5722;
+  color: white;
   border: none;
   border-radius: 4px;
-  padding: 10px 20px; 
-  margin-left: 20px; 
+  padding: 10px 20px;
+  margin-left: 20px;
   cursor: pointer;
-  font-size: 16px; 
+  font-size: 16px;
 }
 
 /* Add hover effect for the search button */
 button:hover {
-  background-color: #FF7937; /* A slightly lighter shade of orange on hover */
+  background-color: #ff7937; /* A slightly lighter shade of orange on hover */
 }
 
+.loading-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
+.shimmer {
+  width: 30%;
+  height: 200px; /* Adjust the height based on your design */
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  position: flex;
+}
+.shimmer-image {
+  width: 100%;
+  height: 60%;
+  background: linear-gradient(90deg, transparent, #f0f0f0, transparent);
+  animation: shimmerAnimation 1.5s infinite linear;
+}
 
+.shimmer-text {
+  width: 80%;
+  height: 20px;
+  background: linear-gradient(90deg, transparent, #f0f0f0, transparent);
+  animation: shimmerAnimation 1.5s infinite linear;
+  margin: 16px;
+}
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+@keyframes shimmerAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+/* Style the login container */
+.login-container {
+  position: relative;
+  height: 100vh;
+}
+
+/* Style the background image */
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1576866209830-589e1bfbaa4d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); /* Replace with your photo URL */
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px); /* Optional: Add a blur effect to the background */
+}
+
+/* Style the login box */
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Style the heading */
+.login-box h2 {
+  color: #ff5722; /* Orange color from Swiggy */
+}
+
+/* Style the input container */
+.input-container-sign {
+  margin-bottom: 20px;
+}
+
+/* Style the input fields */
+/* Style the input fields */
+.input-container-sign input[type="email"],
+.input-container-sign input[type="password"],
+.input-container-sign input[type="number"] {
+  width: 70%;
+  padding: 8px; /* Adjusted padding for a smaller size */
+  border: 1px solid #ff5722; /* Orange color from Swiggy */
+  border-radius: 4px;
+  font-size: 14px; /* Adjusted font size for a smaller size */
+}
+
+/* Style the login button */
+.login-button {
+  background-color: #ff5722; /* Orange color from Swiggy */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.background-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #dc886e; /* Semi-transparent orange color from Swiggy */
+  opacity: 0.2; /* Adjust the opacity to control the tint strength */
+}
+
+/* Style the login button */
+.login-button {
+  background-color: #ff5722; /* Orange color from Swiggy */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Add hover effect for the login button */
+.login-button:hover {
+  background-color: #ff7937; /* A slightly lighter shade of orange on hover */
+}
+.container-main{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.menu-container{
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  padding-bottom: 25px;
+  border-bottom: 2px solid #e0dede;
+}
+.ratings-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 1px;
+  margin-top: 15px;
+  box-shadow:2px 2px 1px #7e7d7d;
+}
+.ratings-container__left{
+  font-size: 11px;
+}
+.ratings-container__right{
+  font-size: 11px;
+  font-weight: bold;
+}
+.menu-container__p{
+  font-size: 11px;
+  color: #7e7d7d;
+}
+.menu-items-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.main-item-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+  margin: 7px;
+  border-bottom: 1px solid #e0dede;
+  background-color: #e4dfdf;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.actual-menu-items-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 7px;
+  margin: 7px;
+  border-bottom: 1px solid #e0dede;
+  border-radius: 7px;
+}

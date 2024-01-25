@@ -2,37 +2,27 @@ export const IMG_CARD_LINK=`https://res.cloudinary.com/swiggy/image/upload/fl_lo
 export const JSON_DATA=[
     {
         "info": {
-            "id": "669",
-            "name": "Chai Point",
-            "cloudinaryImageId": "vldpinypn5ra0unkqga3",
-            "locality": "2nd Stage",
-            "areaName": "BTM Layout",
-            "costForTwo": "₹150 for two",
+            "id": "124178",
+            "name": "Starbucks Coffee",
+            "cloudinaryImageId": "0c958153eeb436db6d515ca36e47e8a4",
+            "locality": "Ashok Nagar",
+            "areaName": "Lavelle Road",
+            "costForTwo": "₹400 for two",
             "cuisines": [
-                "Bakery",
                 "Beverages",
-                "Maharashtrian",
-                "Snacks",
-                "Street Food",
-                "South Indian",
-                "Punjabi",
-                "Chaat",
-                "Indian",
-                "American",
-                "North Indian",
-                "Fast Food",
-                "Desserts",
                 "Cafe",
-                "Healthy Food",
-                "Home Food"
+                "Snacks",
+                "Desserts",
+                "Bakery",
+                "Ice Cream"
             ],
-            "avgRating": 4.1,
+            "avgRating": 4.2,
             "feeDetails": {
-                "restaurantId": "669",
+                "restaurantId": "124178",
                 "fees": [
                     {
                         "name": "BASE_DISTANCE",
-                        "fee": 3200
+                        "fee": 3600
                     },
                     {
                         "name": "BASE_TIME"
@@ -41,125 +31,21 @@ export const JSON_DATA=[
                         "name": "ANCILLARY_SURGE_FEE"
                     }
                 ],
-                "totalFee": 3200
+                "totalFee": 3600
             },
-            "parentId": "1607",
-            "avgRatingString": "4.1",
-            "totalRatingsString": "10K+",
+            "parentId": "195515",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "1K+",
             "sla": {
-                "deliveryTime": 34,
+                "deliveryTime": 16,
                 "lastMileTravel": 0.4,
                 "serviceability": "SERVICEABLE",
-                "slaString": "34 mins",
+                "slaString": "16 mins",
                 "lastMileTravelString": "0.4 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2023-10-06 00:00:00",
-                "opened": true
-            },
-            "badges": {
-                "textExtendedBadges": [
-                    {
-                        "iconId": "guiltfree/GF_Logo_android_3x",
-                        "shortDescription": "options available",
-                        "fontColor": "#7E808C"
-                    }
-                ]
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {
-                        "badgeObject": [
-                            {
-                                "attributes": {
-                                    "description": "",
-                                    "fontColor": "#7E808C",
-                                    "iconId": "guiltfree/GF_Logo_android_3x",
-                                    "shortDescription": "options available"
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "60% OFF",
-                "subHeader": "UPTO ₹120"
-            },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/chai-point-2nd-stage-btm-layout-bangalore-669",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "23678",
-            "name": "McDonald's",
-            "cloudinaryImageId": "ee5f8e06b300efc07c9fe3f4df40dfc4",
-            "locality": "5th Block",
-            "areaName": "Koramangala",
-            "costForTwo": "₹400 for two",
-            "cuisines": [
-                "Burgers",
-                "Beverages",
-                "Cafe",
-                "Desserts"
-            ],
-            "avgRating": 4.3,
-            "feeDetails": {
-                "restaurantId": "23678",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 3800
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 3800
-            },
-            "parentId": "630",
-            "avgRatingString": "4.3",
-            "totalRatingsString": "10K+",
-            "sla": {
-                "deliveryTime": 26,
-                "lastMileTravel": 3,
-                "serviceability": "SERVICEABLE",
-                "slaString": "26 mins",
-                "lastMileTravelString": "3.0 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-09-30 03:15:00",
+                "nextCloseTime": "2023-11-29 23:59:00",
                 "opened": true
             },
             "badges": {
@@ -195,13 +81,6 @@ export const JSON_DATA=[
                 "header": "30% OFF",
                 "subHeader": "UPTO ₹75"
             },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
-            },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                 "differentiatedUiMediaDetails": {
@@ -216,32 +95,28 @@ export const JSON_DATA=[
         },
         "analytics": {},
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/mcdonalds-5th-block-koramangala-bangalore-23678",
+            "link": "https://www.swiggy.com/restaurants/starbucks-coffee-ashok-nagar-lavelle-road-bangalore-124178",
             "type": "WEBLINK"
         }
     },
     {
         "info": {
-            "id": "57062",
-            "name": "Subway",
-            "cloudinaryImageId": "1ace5fa65eff3e1223feb696c956b38b",
-            "locality": "Vega City Mall",
-            "areaName": "Bannerghatta Main Road",
-            "costForTwo": "₹350 for two",
+            "id": "10575",
+            "name": "Pizza Hut",
+            "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
+            "locality": "Shanti Nagar",
+            "areaName": "Shanti Nagar",
+            "costForTwo": "₹600 for two",
             "cuisines": [
-                "Fast Food",
-                "Salads",
-                "Snacks",
-                "Desserts",
-                "Beverages"
+                "Pizzas"
             ],
-            "avgRating": 3.9,
+            "avgRating": 4,
             "feeDetails": {
-                "restaurantId": "57062",
+                "restaurantId": "10575",
                 "fees": [
                     {
                         "name": "BASE_DISTANCE",
-                        "fee": 3200
+                        "fee": 2900
                     },
                     {
                         "name": "BASE_TIME"
@@ -250,21 +125,21 @@ export const JSON_DATA=[
                         "name": "ANCILLARY_SURGE_FEE"
                     }
                 ],
-                "totalFee": 3200
+                "totalFee": 2900
             },
-            "parentId": "2",
-            "avgRatingString": "3.9",
+            "parentId": "721",
+            "avgRatingString": "4.0",
             "totalRatingsString": "5K+",
             "sla": {
-                "deliveryTime": 40,
-                "lastMileTravel": 2,
+                "deliveryTime": 31,
+                "lastMileTravel": 2.1,
                 "serviceability": "SERVICEABLE",
-                "slaString": "40 mins",
-                "lastMileTravelString": "2.0 km",
+                "slaString": "31 mins",
+                "lastMileTravelString": "2.1 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2023-09-29 22:55:00",
+                "nextCloseTime": "2023-11-30 01:00:00",
                 "opened": true
             },
             "badges": {},
@@ -277,12 +152,9 @@ export const JSON_DATA=[
                     "textExtendedBadges": {}
                 }
             },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
+            "aggregatedDiscountInfoV3": {
+                "header": "50% OFF",
+                "subHeader": "UPTO ₹100"
             },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -298,29 +170,127 @@ export const JSON_DATA=[
         },
         "analytics": {},
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/subway-vega-city-mall-bannerghatta-main-road-bangalore-57062",
+            "link": "https://www.swiggy.com/restaurants/pizza-hut-shanti-nagar-bangalore-10575",
             "type": "WEBLINK"
         }
     },
     {
         "info": {
-            "id": "5934",
+            "id": "237668",
+            "name": "McDonald's",
+            "cloudinaryImageId": "bb7ae131544c7d37e10fc5faf76f09d6",
+            "locality": "Commercial Street",
+            "areaName": "Shivajinagar",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Burgers",
+                "Beverages",
+                "Cafe",
+                "Desserts"
+            ],
+            "avgRating": 4.4,
+            "feeDetails": {
+                "restaurantId": "237668",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 2900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 2900
+            },
+            "parentId": "630",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "5K+",
+            "sla": {
+                "deliveryTime": 28,
+                "lastMileTravel": 2.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "28 mins",
+                "lastMileTravelString": "2.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-29 22:45:00",
+                "opened": true
+            },
+            "badges": {
+                "textExtendedBadges": [
+                    {
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "10% OFF",
+                "subHeader": "ABOVE ₹1000",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/mcdonalds-commercial-street-shivajinagar-bangalore-237668",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "5938",
             "name": "Burger King",
             "cloudinaryImageId": "e33e1d3ba7d6b2bb0d45e1001b731fcf",
-            "locality": "Koramangala",
-            "areaName": "Koramangala",
+            "locality": "Tasker Town",
+            "areaName": "Shivaji Nagar",
             "costForTwo": "₹350 for two",
             "cuisines": [
                 "Burgers",
                 "American"
             ],
-            "avgRating": 4.2,
+            "avgRating": 4.1,
             "feeDetails": {
-                "restaurantId": "5934",
+                "restaurantId": "5938",
                 "fees": [
                     {
                         "name": "BASE_DISTANCE",
-                        "fee": 3800
+                        "fee": 2900
                     },
                     {
                         "name": "BASE_TIME"
@@ -329,21 +299,21 @@ export const JSON_DATA=[
                         "name": "ANCILLARY_SURGE_FEE"
                     }
                 ],
-                "totalFee": 3800
+                "totalFee": 2900
             },
             "parentId": "166",
-            "avgRatingString": "4.2",
+            "avgRatingString": "4.1",
             "totalRatingsString": "10K+",
             "sla": {
-                "deliveryTime": 27,
-                "lastMileTravel": 3,
+                "deliveryTime": 31,
+                "lastMileTravel": 2.8,
                 "serviceability": "SERVICEABLE",
-                "slaString": "27 mins",
-                "lastMileTravelString": "3.0 km",
+                "slaString": "31 mins",
+                "lastMileTravelString": "2.8 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2023-09-30 05:00:00",
+                "nextCloseTime": "2023-11-30 02:00:00",
                 "opened": true
             },
             "badges": {},
@@ -357,15 +327,8 @@ export const JSON_DATA=[
                 }
             },
             "aggregatedDiscountInfoV3": {
-                "header": "EVERY ITEM",
-                "subHeader": "@ ₹129"
-            },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
+                "header": "ITEMS",
+                "subHeader": "AT ₹129"
             },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -381,35 +344,32 @@ export const JSON_DATA=[
         },
         "analytics": {},
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/burger-king-koramangala-bangalore-5934",
+            "link": "https://www.swiggy.com/restaurants/burger-king-tasker-town-shivaji-nagar-bangalore-5938",
             "type": "WEBLINK"
         }
     },
     {
         "info": {
-            "id": "7090",
-            "name": "FreshMenu",
-            "cloudinaryImageId": "6c4de7b481d3614370e5062b2f33e7d6",
-            "locality": "Gurupanapalya",
-            "areaName": "Bannerghatta Road",
-            "costForTwo": "₹250 for two",
+            "id": "347868",
+            "name": "KFC",
+            "cloudinaryImageId": "f01666ac73626461d7455d9c24005cd4",
+            "locality": "Cunnigham road",
+            "areaName": "Vasanth Nagar",
+            "costForTwo": "₹400 for two",
             "cuisines": [
-                "Continental",
-                "Chinese",
-                "Oriental",
-                "Asian",
-                "Healthy Food",
-                "Fast Food",
-                "Indian",
-                "Desserts"
+                "Burgers",
+                "Biryani",
+                "American",
+                "Snacks",
+                "Fast Food"
             ],
             "avgRating": 3.8,
             "feeDetails": {
-                "restaurantId": "7090",
+                "restaurantId": "347868",
                 "fees": [
                     {
                         "name": "BASE_DISTANCE",
-                        "fee": 3200
+                        "fee": 4200
                     },
                     {
                         "name": "BASE_TIME"
@@ -418,127 +378,289 @@ export const JSON_DATA=[
                         "name": "ANCILLARY_SURGE_FEE"
                     }
                 ],
-                "totalFee": 3200
+                "totalFee": 4200
             },
-            "parentId": "398",
+            "parentId": "547",
             "avgRatingString": "3.8",
-            "totalRatingsString": "10K+",
-            "sla": {
-                "deliveryTime": 36,
-                "lastMileTravel": 1.4,
-                "serviceability": "SERVICEABLE",
-                "slaString": "36 mins",
-                "lastMileTravelString": "1.4 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-09-29 23:00:00",
-                "opened": true
-            },
-            "badges": {
-                "textExtendedBadges": [
-                    {
-                        "iconId": "guiltfree/GF_Logo_android_3x",
-                        "shortDescription": "options available",
-                        "fontColor": "#7E808C"
-                    }
-                ]
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {
-                        "badgeObject": [
-                            {
-                                "attributes": {
-                                    "description": "",
-                                    "fontColor": "#7E808C",
-                                    "iconId": "guiltfree/GF_Logo_android_3x",
-                                    "shortDescription": "options available"
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "EVERY ITEM",
-                "subHeader": "@ ₹99"
-            },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/freshmenu-gurupanapalya-bannerghatta-road-bangalore-7090",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "103797",
-            "name": "Starbucks Coffee",
-            "cloudinaryImageId": "182191ab163770437b62861a6f987709",
-            "locality": "Vega City Mall",
-            "areaName": "Btm Layout",
-            "costForTwo": "₹400 for two",
-            "cuisines": [
-                "Beverages",
-                "Cafe",
-                "Snacks",
-                "Desserts",
-                "Bakery",
-                "Ice Cream"
-            ],
-            "avgRating": 4,
-            "feeDetails": {
-                "restaurantId": "103797",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 3700
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 3700
-            },
-            "parentId": "195515",
-            "avgRatingString": "4.0",
             "totalRatingsString": "1K+",
             "sla": {
                 "deliveryTime": 31,
-                "lastMileTravel": 2,
+                "lastMileTravel": 3,
                 "serviceability": "SERVICEABLE",
                 "slaString": "31 mins",
-                "lastMileTravelString": "2.0 km",
+                "lastMileTravelString": "3.0 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2023-09-29 23:59:00",
+                "nextCloseTime": "2023-11-30 03:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/kfc-cunnigham-road-vasanth-nagar-bangalore-347868",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "281469",
+            "name": "Lavonne",
+            "cloudinaryImageId": "emlehbuwgsmryxhwzhvq",
+            "locality": "St. Marks Road",
+            "areaName": "St. Marks Road",
+            "costForTwo": "₹750 for two",
+            "cuisines": [
+                "Bakery",
+                "Desserts"
+            ],
+            "avgRating": 4.6,
+            "feeDetails": {
+                "restaurantId": "281469",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 3600
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 3600
+            },
+            "parentId": "10530",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 27,
+                "lastMileTravel": 2.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "27 mins",
+                "lastMileTravelString": "2.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-29 22:40:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ],
+                "textExtendedBadges": [
+                    {
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/lavonne-st-marks-road-bangalore-281469",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "23847",
+            "name": "Domino's Pizza",
+            "cloudinaryImageId": "fjqcvqfgqlw6h0atques",
+            "locality": "Rest House Road",
+            "areaName": "Brigade Road",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Pizzas",
+                "Italian",
+                "Pastas",
+                "Desserts"
+            ],
+            "avgRating": 4.2,
+            "feeDetails": {
+                "restaurantId": "23847",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 2900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 2900
+            },
+            "parentId": "2456",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "5K+",
+            "sla": {
+                "deliveryTime": 25,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25 mins",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-29 22:59:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹100 OFF",
+                "subHeader": "ABOVE ₹999",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/dominos-pizza-rest-house-road-brigade-road-bangalore-23847",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "312660",
+            "name": "Samosa Party",
+            "cloudinaryImageId": "ixgxvfu6ggvw1w1awgr1",
+            "locality": "Brigade Road",
+            "areaName": "Brigade Road",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "Fast Food",
+                "Snacks",
+                "Beverages",
+                "Chaat",
+                "North Indian",
+                "Street Food",
+                "Sweets",
+                "Desserts",
+                "Punjabi",
+                "Bakery"
+            ],
+            "avgRating": 4.5,
+            "feeDetails": {
+                "restaurantId": "312660",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 3400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 3400
+            },
+            "parentId": "6364",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 30,
+                "lastMileTravel": 2.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30 mins",
+                "lastMileTravelString": "2.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-29 22:00:00",
                 "opened": true
             },
             "badges": {
@@ -564,113 +686,6 @@ export const JSON_DATA=[
                                     "fontColor": "#7E808C",
                                     "iconId": "guiltfree/GF_Logo_android_3x",
                                     "shortDescription": "options available"
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "60% OFF",
-                "subHeader": "UPTO ₹100"
-            },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/starbucks-coffee-vega-city-mall-btm-layout-bangalore-103797",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "272236",
-            "name": "EatFit",
-            "cloudinaryImageId": "6126c9b45de2cb222405c1af8a321e74",
-            "locality": "2nd Stage",
-            "areaName": "BTM Layout",
-            "costForTwo": "₹270 for two",
-            "cuisines": [
-                "Chinese",
-                "Healthy Food",
-                "Tandoor",
-                "Pizzas",
-                "North Indian",
-                "Thalis",
-                "Biryani"
-            ],
-            "avgRating": 4.1,
-            "feeDetails": {
-                "restaurantId": "272236",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 3200
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 3200
-            },
-            "parentId": "76139",
-            "avgRatingString": "4.1",
-            "totalRatingsString": "5K+",
-            "sla": {
-                "deliveryTime": 22,
-                "lastMileTravel": 1.3,
-                "serviceability": "SERVICEABLE",
-                "slaString": "22 mins",
-                "lastMileTravelString": "1.3 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-09-29 23:59:00",
-                "opened": true
-            },
-            "badges": {
-                "textExtendedBadges": [
-                    {
-                        "iconId": "guiltfree/GF_Logo_android_3x",
-                        "shortDescription": "brand",
-                        "fontColor": "#7E808C"
-                    }
-                ]
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {
-                        "badgeObject": [
-                            {
-                                "attributes": {
-                                    "description": "",
-                                    "fontColor": "#7E808C",
-                                    "iconId": "guiltfree/GF_Logo_android_3x",
-                                    "shortDescription": "brand"
                                 }
                             }
                         ]
@@ -681,13 +696,6 @@ export const JSON_DATA=[
                 "header": "60% OFF",
                 "subHeader": "UPTO ₹120"
             },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
-            },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                 "differentiatedUiMediaDetails": {
@@ -702,117 +710,30 @@ export const JSON_DATA=[
         },
         "analytics": {},
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/eatfit-2nd-stage-btm-layout-bangalore-272236",
+            "link": "https://www.swiggy.com/restaurants/samosa-party-brigade-road-bangalore-312660",
             "type": "WEBLINK"
         }
     },
     {
         "info": {
-            "id": "65797",
-            "name": "Leon's - Burgers & Wings (Leon Grill)",
-            "cloudinaryImageId": "r4ufflqojich0r29efvc",
-            "locality": "Koramangala",
-            "areaName": "Koramangala",
-            "costForTwo": "₹300 for two",
-            "cuisines": [
-                "American",
-                "Snacks",
-                "Turkish",
-                "Portuguese",
-                "Continental"
-            ],
-            "avgRating": 4.3,
-            "feeDetails": {
-                "restaurantId": "65797",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 3800
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 3800
-            },
-            "parentId": "371281",
-            "avgRatingString": "4.3",
-            "totalRatingsString": "10K+",
-            "sla": {
-                "deliveryTime": 25,
-                "lastMileTravel": 3.6,
-                "serviceability": "SERVICEABLE",
-                "slaString": "25 mins",
-                "lastMileTravelString": "3.6 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-09-30 04:00:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "60% OFF",
-                "subHeader": "UPTO ₹100"
-            },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/leons-burgers-and-wings-leon-grill-koramangala-bangalore-65797",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "79883",
-            "name": "Mad Over Donuts",
-            "cloudinaryImageId": "4e093cbd10bcd8ceff3faefb8fbdf258",
-            "locality": "Vega City Mall",
-            "areaName": "Bannerghatta Road",
-            "costForTwo": "₹200 for two",
+            "id": "51835",
+            "name": "Aubree",
+            "cloudinaryImageId": "4aa623f20487868aa84afbc858da17d6",
+            "locality": "Timmaiah Road",
+            "areaName": "Shivajinagar",
+            "costForTwo": "₹700 for two",
             "cuisines": [
                 "Desserts",
-                "Sweets",
                 "Bakery"
             ],
-            "avgRating": 4.2,
+            "avgRating": 4.5,
             "veg": true,
             "feeDetails": {
-                "restaurantId": "79883",
+                "restaurantId": "51835",
                 "fees": [
                     {
                         "name": "BASE_DISTANCE",
-                        "fee": 3700
+                        "fee": 3600
                     },
                     {
                         "name": "BASE_TIME"
@@ -821,204 +742,121 @@ export const JSON_DATA=[
                         "name": "ANCILLARY_SURGE_FEE"
                     }
                 ],
-                "totalFee": 3700
+                "totalFee": 3600
             },
-            "parentId": "611",
-            "avgRatingString": "4.2",
+            "parentId": "3807",
+            "avgRatingString": "4.5",
             "totalRatingsString": "1K+",
             "sla": {
-                "deliveryTime": 29,
-                "lastMileTravel": 2,
+                "deliveryTime": 33,
+                "lastMileTravel": 2.8,
                 "serviceability": "SERVICEABLE",
-                "slaString": "29 mins",
-                "lastMileTravelString": "2.0 km",
+                "slaString": "33 mins",
+                "lastMileTravelString": "2.8 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2023-09-29 23:30:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "60% OFF",
-                "subHeader": "UPTO ₹100"
-            },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/mad-over-donuts-vega-city-mall-bannerghatta-road-bangalore-79883",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "153731",
-            "name": "Dindigul Thalappakatti",
-            "cloudinaryImageId": "aslqpj36wuh2gx4xfrrk",
-            "locality": "Jayanagar",
-            "areaName": "Jayanagar",
-            "costForTwo": "₹550 for two",
-            "cuisines": [
-                "Biryani",
-                "Barbecue",
-                "South Indian",
-                "Chinese",
-                "North Indian"
-            ],
-            "avgRating": 4,
-            "feeDetails": {
-                "restaurantId": "153731",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 3900
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 3900
-            },
-            "parentId": "332",
-            "avgRatingString": "4.0",
-            "totalRatingsString": "5K+",
-            "sla": {
-                "deliveryTime": 26,
-                "lastMileTravel": 2.9,
-                "serviceability": "SERVICEABLE",
-                "slaString": "26 mins",
-                "lastMileTravelString": "2.9 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-09-29 23:59:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "60% OFF",
-                "subHeader": "UPTO ₹100"
-            },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/dindigul-thalappakatti-jayanagar-bangalore-153731",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "304277",
-            "name": "Cafe Coffee Day",
-            "cloudinaryImageId": "b925459fbc1faf59f02f7289eb079a74",
-            "locality": "4th T Block",
-            "areaName": "Koramangala",
-            "costForTwo": "₹300 for two",
-            "cuisines": [
-                "Beverages",
-                "Cafe",
-                "Snacks",
-                "Desserts",
-                "Burgers",
-                "Ice Cream",
-                "Bakery",
-                "Fast Food"
-            ],
-            "avgRating": 4.6,
-            "feeDetails": {
-                "restaurantId": "304277",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 3800
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 3800
-            },
-            "parentId": "1",
-            "avgRatingString": "4.6",
-            "totalRatingsString": "500+",
-            "sla": {
-                "deliveryTime": 24,
-                "lastMileTravel": 3,
-                "serviceability": "SERVICEABLE",
-                "slaString": "24 mins",
-                "lastMileTravelString": "3.0 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-09-29 23:15:00",
+                "nextCloseTime": "2023-11-29 21:00:00",
                 "opened": true
             },
             "badges": {
-                "textExtendedBadges": [
+                "imageBadges": [
                     {
-                        "iconId": "guiltfree/GF_Logo_android_3x",
-                        "shortDescription": "options available",
-                        "fontColor": "#7E808C"
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "D",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "30% OFF",
+                "subHeader": "UPTO ₹75"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/aubree-timmaiah-road-shivajinagar-bangalore-51835",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "354531",
+            "name": "Burger Seigneur",
+            "cloudinaryImageId": "t8qo8yuimdpduzbozybj",
+            "locality": "St. Marks Road",
+            "areaName": "St. Marks Road",
+            "costForTwo": "₹1200 for two",
+            "cuisines": [
+                "American",
+                "Continental",
+                "Beverages"
+            ],
+            "avgRating": 4.4,
+            "feeDetails": {
+                "restaurantId": "354531",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 3600
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 3600
+            },
+            "parentId": "12095",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 27,
+                "lastMileTravel": 1.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "27 mins",
+                "lastMileTravelString": "1.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-30 01:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
                     }
                 ]
             },
@@ -1026,32 +864,23 @@ export const JSON_DATA=[
             "type": "F",
             "badgesV2": {
                 "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {
+                    "imageBased": {
                         "badgeObject": [
                             {
                                 "attributes": {
-                                    "description": "",
-                                    "fontColor": "#7E808C",
-                                    "iconId": "guiltfree/GF_Logo_android_3x",
-                                    "shortDescription": "options available"
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
                                 }
                             }
                         ]
-                    }
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
                 }
             },
             "aggregatedDiscountInfoV3": {
-                "header": "60% OFF",
-                "subHeader": "UPTO ₹100"
-            },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
             },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1067,32 +896,33 @@ export const JSON_DATA=[
         },
         "analytics": {},
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/cafe-coffee-day-4th-t-block-koramangala-bangalore-304277",
+            "link": "https://www.swiggy.com/restaurants/burger-seigneur-st-marks-road-bangalore-354531",
             "type": "WEBLINK"
         }
     },
     {
         "info": {
-            "id": "218",
-            "name": "Anand Sweets",
-            "cloudinaryImageId": "qh5kiglsvwhoukabvvqx",
-            "locality": "5th Block",
-            "areaName": "Koramangala",
-            "costForTwo": "₹300 for two",
+            "id": "32510",
+            "name": "Toscano",
+            "cloudinaryImageId": "f6idsoj8oevlwas80b9c",
+            "locality": "Lavelle Road",
+            "areaName": "UB City",
+            "costForTwo": "₹1200 for two",
             "cuisines": [
-                "Sweets",
-                "Snacks",
-                "North Indian",
-                "Desserts"
+                "Italian",
+                "Pizzas",
+                "Pastas",
+                "Continental",
+                "Desserts",
+                "Bakery"
             ],
-            "avgRating": 4.5,
-            "veg": true,
+            "avgRating": 4.3,
             "feeDetails": {
-                "restaurantId": "218",
+                "restaurantId": "32510",
                 "fees": [
                     {
                         "name": "BASE_DISTANCE",
-                        "fee": 4500
+                        "fee": 3600
                     },
                     {
                         "name": "BASE_TIME"
@@ -1101,28 +931,123 @@ export const JSON_DATA=[
                         "name": "ANCILLARY_SURGE_FEE"
                     }
                 ],
-                "totalFee": 4500
+                "totalFee": 3600
             },
-            "parentId": "53",
-            "avgRatingString": "4.5",
-            "totalRatingsString": "10K+",
+            "parentId": "22481",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "1K+",
             "sla": {
-                "deliveryTime": 28,
-                "lastMileTravel": 3.7,
+                "deliveryTime": 39,
+                "lastMileTravel": 0.6,
                 "serviceability": "SERVICEABLE",
-                "slaString": "28 mins",
-                "lastMileTravelString": "3.7 km",
+                "slaString": "39 mins",
+                "lastMileTravelString": "0.6 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2023-09-29 22:00:00",
+                "nextCloseTime": "2023-11-29 23:00:00",
                 "opened": true
             },
             "badges": {
                 "imageBadges": [
                     {
-                        "imageId": "v1695133679/badges/Pure_Veg111.png",
-                        "description": "pureveg"
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "50% OFF",
+                "subHeader": "UPTO ₹100"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/toscano-lavelle-road-ub-city-bangalore-32510",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "342643",
+            "name": "The Pizza Bakery",
+            "cloudinaryImageId": "0335dd45be555d0a4187255e57d2ca88",
+            "locality": "Church Street",
+            "areaName": "Ashok Nagar",
+            "costForTwo": "₹700 for two",
+            "cuisines": [
+                "Pizzas",
+                "Pastas",
+                "Italian",
+                "Desserts",
+                "Continental"
+            ],
+            "avgRating": 4.4,
+            "feeDetails": {
+                "restaurantId": "342643",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 3600
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 3600
+            },
+            "parentId": "11108",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 26,
+                "lastMileTravel": 1.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "26 mins",
+                "lastMileTravelString": "1.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-29 23:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
                     }
                 ],
                 "textExtendedBadges": [
@@ -1141,8 +1066,8 @@ export const JSON_DATA=[
                         "badgeObject": [
                             {
                                 "attributes": {
-                                    "description": "pureveg",
-                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
                                 }
                             }
                         ]
@@ -1162,12 +1087,9 @@ export const JSON_DATA=[
                     }
                 }
             },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹100"
             },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1183,33 +1105,31 @@ export const JSON_DATA=[
         },
         "analytics": {},
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/anand-sweets-5th-block-koramangala-bangalore-218",
+            "link": "https://www.swiggy.com/restaurants/the-pizza-bakery-church-street-ashok-nagar-bangalore-342643",
             "type": "WEBLINK"
         }
     },
     {
         "info": {
-            "id": "155398",
-            "name": "The Good Bowl",
-            "cloudinaryImageId": "6e04be27387483a7c00444f8e8241108",
-            "locality": "KEB Layout",
-            "areaName": "BTM 1st Stage",
-            "costForTwo": "₹400 for two",
+            "id": "53503",
+            "name": "Brik Oven",
+            "cloudinaryImageId": "49352a71022a5b08a8361306ba253892",
+            "locality": "Church Street",
+            "areaName": "Church Street",
+            "costForTwo": "₹700 for two",
             "cuisines": [
-                "Biryani",
-                "North Indian",
-                "Pastas",
-                "Punjabi",
+                "Italian",
+                "Pizzas",
                 "Desserts",
                 "Beverages"
             ],
-            "avgRating": 4.2,
+            "avgRating": 4.1,
             "feeDetails": {
-                "restaurantId": "155398",
+                "restaurantId": "53503",
                 "fees": [
                     {
                         "name": "BASE_DISTANCE",
-                        "fee": 3200
+                        "fee": 3600
                     },
                     {
                         "name": "BASE_TIME"
@@ -1218,29 +1138,45 @@ export const JSON_DATA=[
                         "name": "ANCILLARY_SURGE_FEE"
                     }
                 ],
-                "totalFee": 3200
+                "totalFee": 3600
             },
-            "parentId": "7918",
-            "avgRatingString": "4.2",
-            "totalRatingsString": "1K+",
+            "parentId": "7389",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "10K+",
             "sla": {
-                "deliveryTime": 29,
-                "lastMileTravel": 0.6,
+                "deliveryTime": 27,
+                "lastMileTravel": 1.6,
                 "serviceability": "SERVICEABLE",
-                "slaString": "29 mins",
-                "lastMileTravelString": "0.6 km",
+                "slaString": "27 mins",
+                "lastMileTravelString": "1.6 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2023-09-29 23:59:00",
+                "nextCloseTime": "2023-11-29 23:30:00",
                 "opened": true
             },
-            "badges": {},
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ]
+            },
             "isOpen": true,
             "type": "F",
             "badgesV2": {
                 "entityBadges": {
-                    "imageBased": {},
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
+                            }
+                        ]
+                    },
                     "textBased": {},
                     "textExtendedBadges": {}
                 }
@@ -1249,13 +1185,6 @@ export const JSON_DATA=[
                 "header": "50% OFF",
                 "subHeader": "UPTO ₹100"
             },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
-            },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                 "differentiatedUiMediaDetails": {
@@ -1270,31 +1199,34 @@ export const JSON_DATA=[
         },
         "analytics": {},
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/the-good-bowl-keb-layout-btm-1st-stage-bangalore-155398",
+            "link": "https://www.swiggy.com/restaurants/brik-oven-church-street-bangalore-53503",
             "type": "WEBLINK"
         }
     },
     {
         "info": {
-            "id": "35856",
-            "name": "Sweet Truth - Cake and Desserts",
-            "cloudinaryImageId": "4a3b48488e3aa9bda13efd8cfcd95284",
-            "locality": "KEB Layout",
-            "areaName": "BTM 1st Stage",
-            "costForTwo": "₹450 for two",
+            "id": "29063",
+            "name": "Misu",
+            "cloudinaryImageId": "lx0tpfgsbqygafwh30wh",
+            "locality": "St. Marks Road",
+            "areaName": "St. Marks Road",
+            "costForTwo": "₹1300 for two",
             "cuisines": [
-                "Snacks",
-                "Bakery",
-                "Desserts",
-                "Beverages"
+                "Asian",
+                "Chinese",
+                "Vietnamese",
+                "Malaysian",
+                "Sushi",
+                "Singaporean",
+                "Desserts"
             ],
-            "avgRating": 4.3,
+            "avgRating": 4.4,
             "feeDetails": {
-                "restaurantId": "35856",
+                "restaurantId": "29063",
                 "fees": [
                     {
                         "name": "BASE_DISTANCE",
-                        "fee": 3200
+                        "fee": 3600
                     },
                     {
                         "name": "BASE_TIME"
@@ -1303,424 +1235,70 @@ export const JSON_DATA=[
                         "name": "ANCILLARY_SURGE_FEE"
                     }
                 ],
-                "totalFee": 3200
+                "totalFee": 3600
             },
-            "parentId": "4444",
-            "avgRatingString": "4.3",
-            "totalRatingsString": "1K+",
-            "sla": {
-                "deliveryTime": 27,
-                "lastMileTravel": 0.6,
-                "serviceability": "SERVICEABLE",
-                "slaString": "27 mins",
-                "lastMileTravelString": "0.6 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-09-29 23:59:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "₹125 OFF",
-                "subHeader": "ABOVE ₹399",
-                "discountTag": "FLAT DEAL"
-            },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/sweet-truth-cake-and-desserts-keb-layout-btm-1st-stage-bangalore-35856",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "57243",
-            "name": "Keventers - Milkshakes & Desserts",
-            "cloudinaryImageId": "f0e94c984813053f46c214f18ce73d59",
-            "locality": "2nd Stage",
-            "areaName": "BTM Layout",
-            "costForTwo": "₹200 for two",
-            "cuisines": [
-                "Beverages",
-                "Ice Cream",
-                "Desserts",
-                "Healthy Food"
-            ],
-            "avgRating": 3.9,
-            "veg": true,
-            "feeDetails": {
-                "restaurantId": "57243",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 3200
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 3200
-            },
-            "parentId": "268997",
-            "avgRatingString": "3.9",
-            "totalRatingsString": "1K+",
-            "sla": {
-                "deliveryTime": 23,
-                "lastMileTravel": 0.6,
-                "serviceability": "SERVICEABLE",
-                "slaString": "23 mins",
-                "lastMileTravelString": "0.6 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-09-30 03:00:00",
-                "opened": true
-            },
-            "badges": {
-                "textExtendedBadges": [
-                    {
-                        "iconId": "guiltfree/GF_Logo_android_3x",
-                        "shortDescription": "options available",
-                        "fontColor": "#7E808C"
-                    }
-                ]
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {
-                        "badgeObject": [
-                            {
-                                "attributes": {
-                                    "description": "",
-                                    "fontColor": "#7E808C",
-                                    "iconId": "guiltfree/GF_Logo_android_3x",
-                                    "shortDescription": "options available"
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "40% OFF",
-                "subHeader": "UPTO ₹80"
-            },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/keventers-milkshakes-and-desserts-2nd-stage-btm-layout-bangalore-57243",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "29783",
-            "name": "CakeZone",
-            "cloudinaryImageId": "2857960242f8d1d4d390dc22a38c530e",
-            "locality": "BTM Layout",
-            "areaName": "2nd Stage",
-            "costForTwo": "₹200 for two",
-            "cuisines": [
-                "Bakery",
-                "Desserts",
-                "Sweets",
-                "Ice Cream"
-            ],
-            "avgRating": 4.2,
-            "feeDetails": {
-                "restaurantId": "29783",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 3900
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 3900
-            },
-            "parentId": "7003",
-            "avgRatingString": "4.2",
-            "totalRatingsString": "10K+",
-            "sla": {
-                "deliveryTime": 27,
-                "lastMileTravel": 1,
-                "serviceability": "SERVICEABLE",
-                "slaString": "27 mins",
-                "lastMileTravelString": "1.0 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-09-29 23:59:00",
-                "opened": true
-            },
-            "badges": {
-                "textExtendedBadges": [
-                    {
-                        "iconId": "guiltfree/GF_Logo_android_3x",
-                        "shortDescription": "options available",
-                        "fontColor": "#7E808C"
-                    }
-                ]
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {
-                        "badgeObject": [
-                            {
-                                "attributes": {
-                                    "description": "",
-                                    "fontColor": "#7E808C",
-                                    "iconId": "guiltfree/GF_Logo_android_3x",
-                                    "shortDescription": "options available"
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "₹125 OFF",
-                "subHeader": "ABOVE ₹249",
-                "discountTag": "FLAT DEAL"
-            },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/cakezone-btm-layout-2nd-stage-bangalore-29783",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "11215",
-            "name": "Taco Bell",
-            "cloudinaryImageId": "d3b3db238b6448c3f297c851e9d0b96b",
-            "locality": "Gopalan Innovation Mall",
-            "areaName": "Bannerghatta Road",
-            "costForTwo": "₹300 for two",
-            "cuisines": [
-                "Mexican"
-            ],
-            "avgRating": 4.2,
-            "feeDetails": {
-                "restaurantId": "11215",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 3700
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 3700
-            },
-            "parentId": "1557",
-            "avgRatingString": "4.2",
-            "totalRatingsString": "10K+",
-            "sla": {
-                "deliveryTime": 31,
-                "lastMileTravel": 1.6,
-                "serviceability": "SERVICEABLE",
-                "slaString": "31 mins",
-                "lastMileTravelString": "1.6 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2023-09-29 23:00:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "40% OFF",
-                "subHeader": "UPTO ₹80"
-            },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/taco-bell-gopalan-innovation-mall-bannerghatta-road-bangalore-11215",
-            "type": "WEBLINK"
-        }
-    },
-    {
-        "info": {
-            "id": "39374",
-            "name": "Frozen Bottle - Milkshakes, Desserts And Ice Cream",
-            "cloudinaryImageId": "a3eut6bexszgmho6a51x",
-            "locality": "2nd Phase",
-            "areaName": "JP Nagar",
-            "costForTwo": "₹250 for two",
-            "cuisines": [
-                "Beverages",
-                "Desserts",
-                "Ice Cream",
-                "Waffle",
-                "Bakery",
-                "Healthy Food"
-            ],
-            "avgRating": 4,
-            "veg": true,
-            "feeDetails": {
-                "restaurantId": "39374",
-                "fees": [
-                    {
-                        "name": "BASE_DISTANCE",
-                        "fee": 3800
-                    },
-                    {
-                        "name": "BASE_TIME"
-                    },
-                    {
-                        "name": "ANCILLARY_SURGE_FEE"
-                    }
-                ],
-                "totalFee": 3800
-            },
-            "parentId": "5655",
-            "avgRatingString": "4.0",
+            "parentId": "7415",
+            "avgRatingString": "4.4",
             "totalRatingsString": "5K+",
             "sla": {
-                "deliveryTime": 22,
-                "lastMileTravel": 3.5,
+                "deliveryTime": 25,
+                "lastMileTravel": 0.7,
                 "serviceability": "SERVICEABLE",
-                "slaString": "22 mins",
-                "lastMileTravelString": "3.5 km",
+                "slaString": "25 mins",
+                "lastMileTravelString": "0.7 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2023-09-30 03:00:00",
+                "nextCloseTime": "2023-11-29 23:30:00",
                 "opened": true
             },
-            "badges": {},
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ],
+                "textExtendedBadges": [
+                    {
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
             "isOpen": true,
             "type": "F",
             "badgesV2": {
                 "entityBadges": {
-                    "imageBased": {},
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
+                            }
+                        ]
+                    },
                     "textBased": {},
-                    "textExtendedBadges": {}
+                    "textExtendedBadges": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available"
+                                }
+                            }
+                        ]
+                    }
                 }
             },
             "aggregatedDiscountInfoV3": {
                 "header": "60% OFF",
-                "subHeader": "UPTO ₹100"
-            },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
+                "subHeader": "UPTO ₹120"
             },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1736,32 +1314,32 @@ export const JSON_DATA=[
         },
         "analytics": {},
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/frozen-bottle-milkshakes-desserts-and-ice-cream-2nd-phase-jp-nagar-bangalore-39374",
+            "link": "https://www.swiggy.com/restaurants/misu-st-marks-road-bangalore-29063",
             "type": "WEBLINK"
         }
     },
     {
         "info": {
-            "id": "336830",
-            "name": "Onesta",
-            "cloudinaryImageId": "ib0niiepzannkvo0ffbp",
-            "locality": "Gandi Nagar",
-            "areaName": "Bommanahalli",
-            "costForTwo": "₹200 for two",
+            "id": "614642",
+            "name": "Soul Rasa",
+            "cloudinaryImageId": "v9fczzlua1wnrx63fh1g",
+            "locality": "Akkithimanahalli",
+            "areaName": "Shanti Nagar",
+            "costForTwo": "₹400 for two",
             "cuisines": [
-                "Italian",
-                "Desserts",
-                "Pizzas",
-                "American",
-                "Snacks"
+                "Indian",
+                "Healthy Food",
+                "Home Food",
+                "South Indian",
+                "North Indian"
             ],
-            "avgRating": 3.9,
+            "avgRating": 4.5,
             "feeDetails": {
-                "restaurantId": "336830",
+                "restaurantId": "614642",
                 "fees": [
                     {
                         "name": "BASE_DISTANCE",
-                        "fee": 3800
+                        "fee": 2900
                     },
                     {
                         "name": "BASE_TIME"
@@ -1770,28 +1348,34 @@ export const JSON_DATA=[
                         "name": "ANCILLARY_SURGE_FEE"
                     }
                 ],
-                "totalFee": 3800
+                "totalFee": 2900
             },
-            "parentId": "11785",
-            "avgRatingString": "3.9",
+            "parentId": "239281",
+            "avgRatingString": "4.5",
             "totalRatingsString": "1K+",
             "sla": {
-                "deliveryTime": 53,
-                "lastMileTravel": 3,
+                "deliveryTime": 32,
+                "lastMileTravel": 2.7,
                 "serviceability": "SERVICEABLE",
-                "slaString": "53 mins",
-                "lastMileTravelString": "3.0 km",
+                "slaString": "32 mins",
+                "lastMileTravelString": "2.7 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2023-09-30 01:00:00",
+                "nextCloseTime": "2023-11-29 23:30:00",
                 "opened": true
             },
             "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                        "description": "OnlyOnSwiggy"
+                    }
+                ],
                 "textExtendedBadges": [
                     {
                         "iconId": "guiltfree/GF_Logo_android_3x",
-                        "shortDescription": "options available",
+                        "shortDescription": "brand",
                         "fontColor": "#7E808C"
                     }
                 ]
@@ -1800,7 +1384,16 @@ export const JSON_DATA=[
             "type": "F",
             "badgesV2": {
                 "entityBadges": {
-                    "imageBased": {},
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "OnlyOnSwiggy",
+                                    "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png"
+                                }
+                            }
+                        ]
+                    },
                     "textBased": {},
                     "textExtendedBadges": {
                         "badgeObject": [
@@ -1809,7 +1402,7 @@ export const JSON_DATA=[
                                     "description": "",
                                     "fontColor": "#7E808C",
                                     "iconId": "guiltfree/GF_Logo_android_3x",
-                                    "shortDescription": "options available"
+                                    "shortDescription": "brand"
                                 }
                             }
                         ]
@@ -1817,16 +1410,8 @@ export const JSON_DATA=[
                 }
             },
             "aggregatedDiscountInfoV3": {
-                "header": "₹125 OFF",
-                "subHeader": "ABOVE ₹249",
-                "discountTag": "FLAT DEAL"
-            },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
+                "header": "60% OFF",
+                "subHeader": "UPTO ₹110"
             },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1842,35 +1427,32 @@ export const JSON_DATA=[
         },
         "analytics": {},
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/onesta-gandi-nagar-bommanahalli-bangalore-336830",
+            "link": "https://www.swiggy.com/restaurants/soul-rasa-akkithimanahalli-shanti-nagar-bangalore-614642",
             "type": "WEBLINK"
         }
     },
     {
         "info": {
-            "id": "35888",
-            "name": "Rolls on Wheels",
-            "cloudinaryImageId": "ae8f2e6bfc382c556f8a8551f044bd71",
-            "locality": "1st Stage",
-            "areaName": "Btm Layout",
+            "id": "12808",
+            "name": "A2B - Adyar Ananda Bhavan",
+            "cloudinaryImageId": "pdod4o1em9potwsd22rs",
+            "locality": "Wilson Garden",
+            "areaName": "Shanti Nagar",
             "costForTwo": "₹300 for two",
             "cuisines": [
-                "Fast Food",
+                "South Indian",
                 "North Indian",
-                "Snacks",
-                "Bengali",
-                "Kebabs",
-                "Beverages",
-                "Healthy Food",
+                "Sweets",
                 "Chinese"
             ],
-            "avgRating": 4,
+            "avgRating": 4.4,
+            "veg": true,
             "feeDetails": {
-                "restaurantId": "35888",
+                "restaurantId": "12808",
                 "fees": [
                     {
                         "name": "BASE_DISTANCE",
-                        "fee": 3200
+                        "fee": 3500
                     },
                     {
                         "name": "BASE_TIME"
@@ -1879,21 +1461,211 @@ export const JSON_DATA=[
                         "name": "ANCILLARY_SURGE_FEE"
                     }
                 ],
-                "totalFee": 3200
+                "totalFee": 3500
             },
-            "parentId": "784",
-            "avgRatingString": "4.0",
+            "parentId": "22",
+            "avgRatingString": "4.4",
             "totalRatingsString": "10K+",
             "sla": {
-                "deliveryTime": 29,
-                "lastMileTravel": 0.9,
+                "deliveryTime": 32,
+                "lastMileTravel": 3,
                 "serviceability": "SERVICEABLE",
-                "slaString": "29 mins",
-                "lastMileTravelString": "0.9 km",
+                "slaString": "32 mins",
+                "lastMileTravelString": "3.0 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2023-09-30 05:00:00",
+                "nextCloseTime": "2023-11-29 22:30:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "20% OFF",
+                "subHeader": "UPTO ₹50"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/a2b-adyar-ananda-bhavan-wilson-garden-shanti-nagar-bangalore-12808",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "4046",
+            "name": "Sri Udupi Park",
+            "cloudinaryImageId": "tfbnpd65irvhp9iwhbtk",
+            "locality": "Galaxy Mall",
+            "areaName": "Residency Road",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "North Indian",
+                "South Indian",
+                "Chinese",
+                "Chaat",
+                "Beverages"
+            ],
+            "avgRating": 4.4,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "4046",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 2900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 2900
+            },
+            "parentId": "4284",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "10K+",
+            "sla": {
+                "deliveryTime": 32,
+                "lastMileTravel": 2.3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "32 mins",
+                "lastMileTravelString": "2.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-29 22:30:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "20% OFF",
+                "subHeader": "UPTO ₹50"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/sri-udupi-park-galaxy-mall-residency-road-bangalore-4046",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "3434",
+            "name": "Nandhini Deluxe",
+            "cloudinaryImageId": "dlt4ml0id5wei4yi840b",
+            "locality": "St. Marks Road",
+            "areaName": "St Marks Road",
+            "costForTwo": "₹500 for two",
+            "cuisines": [
+                "Andhra",
+                "Biryani",
+                "Chinese",
+                "North Indian"
+            ],
+            "avgRating": 4.2,
+            "feeDetails": {
+                "restaurantId": "3434",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 3600
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 3600
+            },
+            "parentId": "2451",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "10K+",
+            "sla": {
+                "deliveryTime": 18,
+                "lastMileTravel": 0.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "18 mins",
+                "lastMileTravelString": "0.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-29 23:59:00",
                 "opened": true
             },
             "badges": {},
@@ -1902,6 +1674,101 @@ export const JSON_DATA=[
             "badgesV2": {
                 "entityBadges": {
                     "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "30% OFF",
+                "subHeader": "UPTO ₹75"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/nandhini-deluxe-st-marks-road-bangalore-3434",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "19361",
+            "name": "Pasta Street",
+            "cloudinaryImageId": "aecff12704ebe42606524c852f9ab0e4",
+            "locality": "Cunningham Road",
+            "areaName": "Cunningham Road",
+            "costForTwo": "₹900 for two",
+            "cuisines": [
+                "Italian",
+                "Pizzas",
+                "Pastas",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 4.4,
+            "feeDetails": {
+                "restaurantId": "19361",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 4200
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 4200
+            },
+            "parentId": "2872",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "5K+",
+            "sla": {
+                "deliveryTime": 35,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "35 mins",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-29 23:30:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
+                            }
+                        ]
+                    },
                     "textBased": {},
                     "textExtendedBadges": {}
                 }
@@ -1910,12 +1777,97 @@ export const JSON_DATA=[
                 "header": "60% OFF",
                 "subHeader": "UPTO ₹120"
             },
-            "loyaltyDiscoverPresentationInfo": {
-                "logoCtx": {
-                    "text": "BENEFITS",
-                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
-                },
-                "freedelMessage": "FREE DELIVERY"
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/pasta-street-cunningham-road-bangalore-19361",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "17376",
+            "name": "Glen's Bakehouse",
+            "cloudinaryImageId": "m6jahioyu7zrodei5pcq",
+            "locality": "Lavelle Road",
+            "areaName": "Ashok Nagar",
+            "costForTwo": "₹500 for two",
+            "cuisines": [
+                "Desserts",
+                "Bakery",
+                "Beverages",
+                "Continental",
+                "Italian"
+            ],
+            "avgRating": 4.5,
+            "feeDetails": {
+                "restaurantId": "17376",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 3400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 3400
+            },
+            "parentId": "3220",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "10K+",
+            "sla": {
+                "deliveryTime": 17,
+                "lastMileTravel": 0.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "17 mins",
+                "lastMileTravelString": "0.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-11-30 00:30:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
             },
             "differentiatedUi": {
                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1931,7 +1883,7 @@ export const JSON_DATA=[
         },
         "analytics": {},
         "cta": {
-            "link": "https://www.swiggy.com/restaurants/rolls-on-wheels-1st-stage-btm-layout-bangalore-35888",
+            "link": "https://www.swiggy.com/restaurants/glens-bakehouse-lavelle-road-ashok-nagar-bangalore-17376",
             "type": "WEBLINK"
         }
     }
