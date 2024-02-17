@@ -1,9 +1,12 @@
 import RestaurantCard from "./RestaurantCard";
 import { JSON_DATA } from "../config";
-import { useState, useEffect } from "react";
+import { useState, useEffect,useContext } from "react";
 import Loading from "./Loading";
 import HeaderComponent from "./Header";
+import { FirebaseContext } from "../context/FirebaseContext";
 function Body() {
+    const firebaseCtx = useContext(FirebaseContext);
+    console.log(firebaseCtx)
     const [search, setSearch] = useState(''); 
     const [restaurants, setRestaurants] = useState([]);
     const [filteredRestaurants, setFilteredRestaurants] = useState([]);

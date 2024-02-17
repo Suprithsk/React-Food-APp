@@ -50,11 +50,14 @@ function Menu() {
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
+                    {/*! work on it later */}
+                    {/* <button>Open all</button> */}
                     <div className='menu-items-container'>
                         {menuItems.map((item) => {
                             return (
-                                <MainItem menuItem={item}/>
+                                <MainItem menuItem={item} resId={restaurantDetails.id} />
                             )
                         })}
                     </div>
