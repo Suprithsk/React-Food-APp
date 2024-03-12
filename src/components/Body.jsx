@@ -15,12 +15,19 @@ function Body() {
     },[])
     //api call
     const getRestaurants = async () => {
-        const response = await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9715987&lng=77.5945627&page_type=DESKTOP_WEB_LISTING');
+        try{
+            const response = await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9715987&lng=77.5945627&page_type=DESKTOP_WEB_LISTING');
         const data = await response.json();
         console.log(data)
         setRestaurants(data.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
         setFilteredRestaurants(data.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
         console.log(data.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
+        }catch(error){
+            console.log(error)
+            setRestaurants(null)
+            setFilteredRestaurants(null)
+        }
+        
     }
     //functions
     const clearSearch = () => {

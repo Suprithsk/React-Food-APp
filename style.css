@@ -382,112 +382,151 @@ button:hover {
   text-decoration: underline;
   color: #333;
 }
-/* cart styles */
 .mainCartDiv{
   display: flex;
+  width: 100%;
   justify-content: center;
+  align-items: center;
 }
 .mainCartContainer{
   display: flex;
   justify-content: center;
-  width: 80%;
-  margin: 20px;
-}
-
-.itemsCartContainer{
-  flex-grow: 1;
-  border: 1px solid #e0dede;
-  margin-left: 20px;
-  min-width: 300px;
-}
-.addressCartContainer {
-  width: 100%;
-  display: flex;
+  align-items: center;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 20px;
+  width: 60%;
+  margin: 20px;
+  border: 1px solid red;
+}
+.mainCartContainer1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30%;
+  margin: 20px;
+  border: 1px solid rgb(208, 148, 64);
+  border-radius: 10px;
 }
 
-.addressCard {
-  background-color: #ffffff;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  padding: 20px;
-  width: 100px; /* Adjusted width to fit two cards in a row */
-  box-sizing: border-box; /* Include padding and border in the width calculation */
-  margin-bottom: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Adjust the width for smaller screens */
-
-
-
-
-
-.addressCard h3 {
-  margin-top: 0;
-  color: #333333;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.addressCard p {
-  margin: 0;
-  font-size: 14px;
-  color: #666666;
-}
-
-.addressCard p:first-child {
-  margin-top: 10px;
-}
-
-.addressCard {
-  background-color: #ffffff;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  padding: 20px;
-  width: 300px;
+.mainCartContainer1>h3,h6{
   margin: 10px;
-  text-align: left;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.mainCartContainer1>button{
+  margin: 10px;
+}
+.dropdown-items-container {
+  display: flex;
+  align-items: center;
 }
 
-.addressCard h3 {
-  margin-top: 0;
-  color: #333333;
-  font-size: 18px;
+
+
+.dropdown-items-container {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.dropdown-items-container__right1 {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.dropdown-items-container__right1 > span {
+  cursor: pointer;
+  margin: 0 5px; 
+  padding: 5px 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  background-color: #fff; 
+}
+
+.dropdown-items-container__right1 > span:hover {
+  background-color: #f0f0f0; 
+}
+
+
+.dropdown-items-container__right1 > span.orange {
+  background-color: #ffa500; 
+  color: #fff; 
+}
+
+.dropdown-items-container__right1 > span.orange:hover {
+  background-color: #ff7f00; 
+}
+.cartItem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #dc886e;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 7px;
+}
+.cartItem>h2{
+  margin: 0px;
+}
+.cartItem-items-container__right1 {
+  display: flex;
+  align-items: center;
+}
+.cartItem-items-container__right1 > span {
+  cursor: pointer;
+  margin:0 4px;
+  padding: 5px 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  background-color: #fff; 
+}
+
+.cartItem-items-container__right1 > span:hover {
+  background-color: #f0f0f0; 
+}
+
+
+.cartItem-items-container__right1 > span.orange {
+  background-color: #132530; 
+  color: #fff; 
+}
+
+.cartItem-items-container__right1 > span.orange:hover {
+  background-color: #5f4933; 
+}
+
+.buttons{
+  margin-right: 20px;
   margin-bottom: 10px;
 }
-
-.addressCard p {
+.cartItems{
+  width: 90%;
+}
+.cartItem-price{
+  font-weight: 600;
+}
+.cartDetails{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #6b9788;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 7px;
+}
+.cartDetails>hr{
+  color: black;
+}
+.cartDetails>h3{
+  margin: 5px;
+}
+.cartDetails>p{
+  margin: 5px;
+}
+.cartDetails>h2{
   margin: 0;
-  font-size: 14px;
-  color: #666666;
-}
-
-.addressCard p:first-child {
-  margin-top: 10px;
-}
-
-.buttonContainer {
-  margin-top: 20px;
-}
-
-.button-cart-address {
-  background-color: #fc8019; 
-  color: white;
-  border: none;
-  border-radius: 4px;
-  font-size: 14px; 
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin-left: 0;
-  margin-top: 10px;
-}
-
-.buttonContainer button:hover {
-  background-color: #e07000; 
 }
 
 

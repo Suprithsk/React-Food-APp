@@ -12,6 +12,8 @@ function DropDownItems({ items, open, resId }) {
         setContains(cartIdInfo.includes(items?.card?.info?.id));
         setAmount(firebaseCtx.cart?.items?.find((item) => item?.card?.info?.id === items?.card?.info?.id)?.amount);
     }, [firebaseCtx.cart?.items]);
+
+    
     return (
         <>
             {open && (
@@ -32,11 +34,10 @@ function DropDownItems({ items, open, resId }) {
                     }}>
                         <button>Add</button>
                     </div>}
-                    {contains && <div className="dropdown-items-container__right">
-                        <span onClick={()=>{
+                    {contains && <div className="dropdown-items-container__right1">
+                        <span className="orange" onClick={()=>{
                             firebaseCtx.removeFromCart(items, resId)
-                        
-                        }}>-</span>{amount}<span onClick={()=>{
+                        }}>-</span>{amount}<span className="orange" onClick={()=>{
                             firebaseCtx.addToCart(items, resId)
                         
                         }}>+</span>
